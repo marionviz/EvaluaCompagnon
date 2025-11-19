@@ -1,27 +1,28 @@
-# Dépendances
+# Dependencies
 node_modules/
-package-lock.json
 
 # Build
 dist/
+build/
 
-# Environnement
-.env.local
+# Environment variables
 .env
-.env.production
-
-# Cache
-.vite/
-.DS_Store
-Thumbs.db
+.env.local
+.env*.local
 
 # Logs
 *.log
 npm-debug.log*
 
-# Editeurs
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+
+# Git
+.git/
